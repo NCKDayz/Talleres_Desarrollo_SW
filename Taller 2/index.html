@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <title>Taller 1 de TypeScript </title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <h1 style="background-color:#0ce0d2"> <img src="https://static.vecteezy.com/system/resources/previews/001/201/704/original/movie-tv-png.png" width="50" height="50">
+         TV Series </h1>
+    <div class="container">
+      <div class="row row-cols-2">
+        <div class="col-sm">
+          <div class = "container">
+            <div class="row">
+              <table class="table table-sm">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Channel</th>
+                    <th scope="col">Seasons</th>
+                  </tr>
+                </thead>
+                <tbody id = "tablaSeries">
+                </tbody>
+              </table>
+            </div>
+            <div class = "row" id="promedio"> 
+            </div>
+          </div>
+        </div>
+        <div class= "col-sm" id = "carta">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="..." id = "imagenCarta">
+            <div class="card-body">
+              <h5 class="card-title" id = "titulo" ></h5>
+              <p class="card-text" id = "sinopsis"></p>
+              <a href="#" class="link-primary" id = "link"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type = "module" src="./scripts/serie.js"></script>
+    <script type = "module" src="./scripts/data.js"></script>
+    <script type = "module" src="./scripts/main.js"></script>
+</body>
+</html>
